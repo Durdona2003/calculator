@@ -20,7 +20,7 @@ public final class App {
         String str = in.nextLine();
         in.close();
 
-        String[] parts = str.split(" ");
+        String[] parts = str.split(" ");   // получение числа из строки
         int num1;
         int num2;
         try {
